@@ -5,7 +5,7 @@ import plotly.express as px
 # 1. Setup & Title
 st.set_page_config(page_title="Marketing ROI Dashboard", layout="wide")
 st.title("📊 Marketing Campaign Effectiveness Analyzer")
-st.markdown("Created by [Your Name] | Senior @ UCSB")
+st.markdown(" Nixon Tse | Senior @ UCSB + The GOAT")
 
 # 2. Load Data 
 @st.cache_data
@@ -50,4 +50,4 @@ st.divider()
 st.subheader("💡 Key Marketing Insights")
 # Calculating which channel has the best average ROI
 top_channel = df.groupby('Channel_Used')['ROI'].mean().idxmax()
-st.write(f"The most effective channel for ROI in this dataset was **{top_channel}**.")
+st.write(f"The most effective channel for ROI in thipython3 -m streamlit run app.pys dataset was **{top_channel}**.")
