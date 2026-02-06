@@ -1,0 +1,1 @@
+The Goal: Identify which marketing channels drive the highest return on investment using Python. Tech Stack: Python, Pandas (Data Cleaning), Plotly (Interactive Charts), Streamlit (Web App). Key Insight: Discovered that Social Media had a 20% higher ROI than Email for this dataset.
